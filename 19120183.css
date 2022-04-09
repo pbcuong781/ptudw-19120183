@@ -1,0 +1,68 @@
+body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+
+#navbarHeader a{
+    font-family: 'Changa One', cursive;
+    padding: 0 1.5rem;
+}
+
+#navbarHeader .active {
+    color: #2FA0D5;
+}
+
+#banner {
+    background-image: url('images/bg_banner.gif');
+}
+
+#banner > div{
+    background: url('images/logo_bg.png') left top no-repeat,
+    url('images/search_bg.png') right top no-repeat;
+}
+
+.btn-primary {
+    background-color: #FA97C2 !important;
+}
+
+#banner-small {
+    height: 5rem;
+    display: none;
+    background-image: url('images/bg_banner.gif');
+}
+
+@media (max-width: 576px){
+    #banner {
+        display: none;
+    }
+
+    #banner-small {
+        display: block;
+    }
+}
+
+@media (min-width: 576px){
+    #banner {
+        display: block;
+    }
+
+    #banner-small {
+        display: none;
+    }
+}
+
+
+
