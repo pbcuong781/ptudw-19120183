@@ -64,5 +64,38 @@ h1 {
     }
 }
 
+#part-2-main {
+    background-color: #FA97C2;
+}
+#sign-up {
+    border-style: dotted;
+}
+.d-flex > .cp1 {
+    flex-basis: 30%;
+}
+h3.bg-green {
+    background-color: #73C926;
+}
+.rounded-5 {
+    border-radius: 0.7em;
+}
+footer {
+    background-image: url('images/bg_footer.gif');
+}
+footer > ul {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+.text-gray > .nav-item > .nav-link {
+    color: #acacac;
+}
+.text-gray > .nav-item > .nav-link:hover {
+    color: #acacac56;
+}
+.text-gray > .nav-item > .active.nav-link {
+    color: #FA97C2;
+}
+
 
 
