@@ -79,13 +79,6 @@ h3.bg-green {
 .rounded-5 {
     border-radius: 0.7em;
 }
-footer {
-    background-image: url('images/bg_footer.gif');
-}
-footer > ul {
-    font-family: 'Changa One', cursive;
-    font-weight: 400;
-}
 
 .text-gray > .nav-item > .nav-link {
     color: #acacac56;
@@ -97,5 +90,12 @@ footer > ul {
     color: #FA97C2;
 }
 
+footer {
+    background-image: url('images/bg_footer.gif');
+}
+footer > ul {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
 
 
